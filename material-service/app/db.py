@@ -8,7 +8,7 @@ load_dotenv()
 
 # Load from .env or hardcode for now
 POSTGRES_USER = os.getenv("POSTGRES_USER", "postgres")
-POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", "yourpassword")
+POSTGRES_PASSWORD = os.getenv("POSTGRES_PASSWORD", "root")
 POSTGRES_DB = os.getenv("POSTGRES_DB", "pdms_db")
 POSTGRES_HOST = os.getenv("POSTGRES_HOST", "localhost")
 POSTGRES_PORT = os.getenv("POSTGRES_PORT", "5432")
