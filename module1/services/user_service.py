@@ -3,8 +3,8 @@
 from sqlalchemy.orm import Session
 from passlib.context import CryptContext
 
-from fastapi_project.models.user import User
-from fastapi_project.schemas.user import UserCreate
+from module1.models.user import User
+from module1.schemas.user import UserCreate
 
 pwd = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
